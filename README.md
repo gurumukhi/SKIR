@@ -30,15 +30,11 @@
 - Generate your app icon and splash screens using `cordova-res --skip-config --copy`
 - Explore the Ionic docs for components, tutorials, and more: https://ion.link/docs
 - Building an enterprise app? Ionic has Enterprise Support and Features: https://ion.link/enterprise-edition
+- Copying changes to android directory & further - `ionic capacitor copy android && npx cap open android`
 
-- Other useful commands:
+# Screenshots
 
-* `ionic build`
-* `ionic capacitor add android`
-* `npx cap open android`
-* `ionic cordova resources android --icon`
-* `ionic capacitor copy android`
-* sync = copy + update
-* APK location: `\android\app\debug`
-* After new android folder: retain res & ic_launcher-playstore.png in /app/src/main/
-  `ionic capacitor copy android && npx cap open android`
+![SKIR-Facts](https://user-images.githubusercontent.com/2748973/95900967-451f0c80-0db0-11eb-9747-90bf400166a9.png)
+![SKIR-Component](https://user-images.githubusercontent.com/2748973/95900965-43eddf80-0db0-11eb-9b9a-e397107ff7fe.png)
+![SKIR-About](https://user-images.githubusercontent.com/2748973/95900960-42241c00-0db0-11eb-87ee-d5dc1987d562.png)
+![SKIR-Header](https://user-images.githubusercontent.com/2748973/95900972-4819fd00-0db0-11eb-8bd3-5b7d43b6a776.png)
