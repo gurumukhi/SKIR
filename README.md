@@ -1,6 +1,9 @@
 # SKIR - Starter Kit 4 Ionic React
 
-- This is a minimal Ionic React App project very useful as starter kit.
+- A minimal Ionic React App
+- Sufficient enough to be used as a starter kit for you new app
+- Very easy to get started with
+- Includes most of basic features usually required in any app
 
 ## Key features
 
