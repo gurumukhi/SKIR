@@ -1,0 +1,358 @@
+// Box Model
+$spacingSmall: 0.25em;
+$spacing: 0.5em;
+$spacingMedium: 1em;
+$spacingLarge: 2em;
+$spacingXLarge: 4em;
+
+$borderRadius: 4px;
+
+// Typography
+$fontFamily: Roboto, sans-serif;
+$fontSizeSmall: 12px;
+$fontSize: 14px;
+$fontSizeMedium: 16px;
+$fontSizeLarge: 25px;
+$fontSizeXLarge: 30px;
+
+$fontWeightLight: 250;
+$fontWeight: 300;
+$fontWeightMedium: 400;
+$fontWeightBold: 500;
+$fontWeightXBold: 700;
+
+//Theme
+$colorWhite: #ffffff;
+$colorBlack: #2d2d2d;
+$colorBlue: #1e6bc2;
+$colorYellow: #ffcc03;
+$colorGreen: #458d00;
+$colorGrey: #f9f9f9;
+$colorGrey2: #e1e1e1;
+$colorGreyDark: gray;
+
+// Miscellaneous
+$opacity: 1;
+$opacityLow: 0.6;
+$opacityLower: 0.35;
+$opacityLowest: 0.1;
+
+// Box Model Styles
+.hasDisplayFlexRow {
+  display: flex;
+  flex-direction: column;
+}
+.hasDisplayFlexColumn {
+  display: flex;
+  flex-direction: row;
+}
+.hasAlignmentMiddle {
+  align-items: center;
+}
+.hasSpaceBetween {
+  justify-content: space-between;
+}
+
+// Spacer Styles
+.spacer {
+  height: $spacing;
+  width: $spacing;
+}
+.spacerSmall {
+  height: $spacingSmall;
+  width: $spacingSmall;
+}
+.spacerMedium {
+  height: $spacingMedium;
+  width: $spacingMedium;
+}
+.spacerLarge {
+  height: $spacingLarge;
+  width: $spacingLarge;
+}
+
+// Padding Styles
+.hasPadding {
+  padding: $spacing;
+}
+.paddingVertical {
+  padding: $spacing 0em $spacing 0em;
+}
+.paddingHorizontal {
+  padding: 0em $spacing 0em $spacing;
+}
+.hasPaddingTop {
+  padding-top: $spacing;
+}
+
+// Margin
+.noMargin {
+  margin: 0px;
+}
+.noMarginTop {
+  margin-top: 0px;
+}
+.marginRightSmall {
+  margin-right: $spacingSmall;
+}
+.marginRightMedium {
+  margin-right: $spacingMedium;
+}
+.marginVertical {
+  margin: $spacing 0px $spacing 0px;
+}
+.marginHorizontal {
+  margin: 0px $spacing 0px $spacing;
+}
+.marginHorizontalMedium {
+  margin: 0px $spacingMedium 0px $spacingMedium;
+}
+.marginVerticalLarge {
+  margin: $spacingLarge 0px $spacingLarge 0px;
+}
+.marginBottom {
+  margin-bottom: $spacing;
+}
+
+// Typographic Styles
+.isHeadline {
+  font-weight: $fontWeightMedium;
+  color: $colorGreyDark;
+  text-transform: uppercase;
+}
+
+.hasFontSizeMedium {
+  font-size: $fontSizeMedium;
+}
+.hasFontSize {
+  font-size: $fontSize;
+}
+.hasFontSizeLarge {
+  font-size: $fontSizeLarge;
+}
+.hasFontSizeXLarge {
+  font-size: $fontSizeXLarge;
+}
+
+.hasFontWeightLight {
+  font-weight: $fontWeightLight;
+}
+.hasFontWeight {
+  font-weight: $fontWeight;
+}
+.hasFontWeightBold {
+  font-weight: $fontWeightBold;
+}
+
+// Colors
+.colorYellow {
+  color: $colorYellow;
+}
+.colorBlack {
+  color: $colorBlack;
+}
+.colorGray {
+  color: $colorGreyDark;
+}
+.colorRed {
+  color: darkred;
+}
+
+// Components Generic Styles
+
+.appContainer {
+  color: $colorBlack;
+  padding: $spacingMedium;
+  padding-top: $spacingMedium;
+  padding-bottom: $spacing;
+}
+
+.skirTag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: $borderRadius;
+  padding-top: $spacingSmall;
+  padding-bottom: $spacingSmall;
+  padding-left: $spacing;
+  padding-right: $spacing;
+  background-color: $colorYellow;
+}
+
+.skirCard {
+  color: $colorBlack;
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+  border-color: $colorYellow;
+  background-color: $colorGrey;
+  box-shadow: 0 0 6px 0 $colorGrey2;
+  margin-bottom: $spacing;
+}
+
+.icon {
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+
+.iconWarning {
+  height: 27px;
+  width: 27px;
+}
+
+.tabIcon {
+  height: 32px;
+  width: 32px;
+}
+
+.noBackgroundColor {
+  background-color: transparent;
+}
+
+.borderBottom {
+  border-bottom: 1px solid $colorYellow;
+}
+
+.textarea {
+  border-bottom: 1px solid $colorYellow;
+}
+
+.detailHeader {
+  margin: 0px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 200;
+}
+
+.detailValue {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.thirdWidth {
+  width: 30%;
+}
+
+.center {
+  text-align: center;
+}
+
+.detailInput {
+  width: 50px;
+  input {
+    padding-left: 0px !important;
+  }
+}
+
+.actionButton {
+  background-size: 20px 20px !important;
+  background-repeat: no-repeat !important;
+  background-position: 20px 15px !important;
+  padding-left: 70px !important;
+}
+
+// LOGIN PAGE
+.loginMain {
+  flex: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #abc1cc;
+  background-position: top;
+}
+
+.loginInput {
+  margin-bottom: 5px;
+  input {
+    margin-right: 8px;
+  }
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 4px;
+}
+
+.skirName {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  font-weight: 1000;
+  font-size: 32px;
+  background-color: #ffcc03;
+  padding-top: 7px;
+  z-index: 10;
+}
+
+.iconSmiley {
+  width: 1.7em;
+  height: 1.7em;
+}
+
+.alertSecondary {
+  color: gray !important;
+}
+
+.para {
+  animation: MoveUpDown1 1s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown1 {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+.para2 {
+  animation: MoveUpDown2 1s linear infinite;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+
+@keyframes MoveUpDown2 {
+  0%,
+  100% {
+    top: 0px;
+  }
+  50% {
+    top: -100px;
+  }
+}
+
+.aboutIcon {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+
+.infoUL {
+  text-align: left;
+  padding-right: 15px;
+  width: 100%;
+
+  li {
+    margin-bottom: $spacing;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.border {
+  border: 1px solid silver;
+}

@@ -1,0 +1,34 @@
+{
+  "appId": "com.gurumukhi.skir",
+  "appName": "SKIR",
+  "webDir": "build",
+  "npmClient": "npm",
+  "bundledWebRuntime": false,
+  "cordova": {},
+  "hideLogs": true,
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 10,
+      "launchAutoHide": true,
+      "backgroundColor": "#ffcc03",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "androidSpinnerStyle": "small",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#ffffff",
+      "showSpinner": true,
+      "splashFullScreen": false,
+      "splashImmersive": false
+    }
+  },
+  "android": {
+    "allowMixedContent": true,
+    "webContentsDebuggingEnabled": true
+  },
+  "ios": {
+    "cordovaSwiftVersion": "4.2"
+  },
+  "server": {
+    "hostname": "skir"
+  }
+}
